@@ -23,11 +23,6 @@
     flex-direction: row;
     margin: 0px 50px 0px 50px;
 
-    
-
-
-
-
 }
 
 
@@ -167,4 +162,61 @@
     background-image: url("assets/drink2.jpg");
     background-size: cover;
     width: 50%;
+}
+
+
+.fast-food-container{
+    background-image: url(assets/backgrounds/foodsBg.jpg);
+    opacity: 0.8;
+    height: 800px;
+    display: flex;
+    margin: 50px;
+
+
+}
+
+.box-food-model{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px 100px 200px;
+
+
+}
+
+.box-top-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 100%;
+
+}
+#fast-food, #drinks, #chicken, #rice{
+    height: 100px;
+    flex: 1;
+
+}
+
+#drinks, #chicken, #rice{
+    background-color: rgb(207, 212, 218);
+    border: 1px solid rgb(146, 142, 142);
+
+}
+
+.main-burger-box{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px 50px 50px 50px;
+    height: 300px;
+    border: 2px solid black;
+
+}
+
+#chicken-burger{
+    background-image: url(assets/fastfood/chickenBurger.jpg);
+    display: flex;
+
 }
