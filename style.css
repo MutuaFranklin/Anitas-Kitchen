@@ -1,22 +1,54 @@
 .container{
     background-image: url(assets/backgrounds/landing.jpg);
-    height: 830px;
+    height: 700px;
     margin: 0px 50px 0px 50px;
     background-size: cover;
+    background-repeat: no-repeat;
     color:white;
-    font-size: 32px;
+
+  
+}
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#one, #two, #three{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 1px;
+  }
+
+#one{
+    margin-top: 100px;
+
+}
+
+.motto{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
 }
 
-.container>p{
-    text-transform: capitalize;
-    font-family: sans-serif;
-    font-size: 1em;
+#paragraph-two>p{
+    margin-top: 0px;
 }
+#paragraph-one>p, #paragraph-two>p{
+    text-transform: capitalize;
+    font-family:serif;
+    font-weight:lighter;
+    font-size: 2em;
+    text-align: center;
+    opacity: 0.8;
+    
+    
+}
+
 
 .grid{
     display: flex;
@@ -48,11 +80,28 @@
 #happy-hour{
     background-color: rgb(221, 216, 216);
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    opacity: 0.7;
+
 }
 
 #party-time{
-    background-color: red;
+    background-color:#F15A29;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: 540;
+
+}
+
+
+#happy-hour>p, #party-time>p{
+    margin-top: 40px;
+    font-size: 30px;
 }
 
 .breakfast{
@@ -78,6 +127,8 @@
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 90px;
+    font-size: 30px;
 
 }
 
@@ -120,22 +171,66 @@
 .fast-food-description{
     margin-top: 100px;
     margin-left: 70px;
+    margin-right: 250px;
     height: 400px;
-    width: 570px;
+    width: 400px;
+    text-align: left;
+    line-height: 1.4;
 
+}
+
+.fast-food-description>h2, .fast-food-description>h4, .fast-food-description>p{
+    font-family: sans-serif;
+    opacity: 0.7;
+
+}
+
+
+
+.view-gallery{
+    height: 50px;
+    width: 250px;
+    border: 1px solid #F15A29;
+    margin-top: 30px;
+}
+
+.view-gallery>p{
+    color:#F15A29;
+    margin-left: 30px;
+    font-weight: bold;
 }
 
 .drinks-description{
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 450px;
     height: 400px;
-    width: 570px;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    
+    line-height: 1.4;
 }
 
+.drinks-description>h2, .drinks-description>h4, .drinks-description>p{
+    text-align: right;
+    font-family: sans-serif;
+    opacity: 0.7;
+    margin-top: 3px;
 
+}
+
+.drinks-description>h4, .fast-food-description>h4{
+    font-size: 20px;
+}
+
+.drinks-description>p, .fast-food-description>p{
+    font-weight: 540;
+}
+
+.drinks-description> .view-gallery{
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
 .drinks-images{
     margin-left: 60px;
     margin-top: 100px;
@@ -168,17 +263,18 @@
 .fast-food-container{
     background-image: url(assets/backgrounds/foodsBg.jpg);
     opacity: 0.8;
-    height: 800px;
+    height: 650px;
     display: flex;
-    margin: 50px;
+    margin: 100px 50px 0px 50px;
 
 
 }
 
 .box-food-model{
-    height: 600px;
+    height: 450px;
     width: 100%;
     background-color: white;
+    opacity: none;
     display: flex;
     flex-direction: column;
     margin: 100px 200px 100px 200px;
@@ -196,27 +292,48 @@
 
 }
 #fast-food, #drinks, #chicken, #rice{
-    height: 100px;
+    height: 70px;
     flex: 1;
+
+
+}
+
+#fast-food>p{
+    color: #F15A29;
+    margin-top: 25px;
+    font-size: 20px;
 
 }
 
 #drinks, #chicken, #rice{
-    background-color: rgb(207, 212, 218);
-    border: 1px solid rgb(146, 142, 142);
+    background-color: lightgray;
+    border-bottom: 2px solid rgb(201, 194, 194);
+    border-right: 2px solid rgb(201, 194, 194);
 
+
+}
+
+#drinks{
+    border-left: 2px solid rgb(201, 194, 194);
+
+}
+
+#drinks>p, #chicken>p, #rice>p{
+    margin-top: 25px;
+    font-size: 20px;
+    opacity: 0.7;
 }
 
 .main-burger-box{
     display: flex;
     flex-direction: row;
-    margin: 50px 50px 50px 50px;
+    margin: 10px 10px 10px 10px;
     height: 400px;
 
 }
 
 #arrow {
-        border: solid red;
+        border: solid #F15A29;
         border-width: 0 3px 3px 0;
         display: flex;
         padding: 3px;
@@ -232,11 +349,13 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 30px;
     margin-left: 50px;
     opacity: none ;
     text-align: center;
     font-weight: bold;
-    color: red;
+    color: #F15A29;
+    opacity: 1.1;
 
 
 
@@ -246,7 +365,7 @@
 
 #chicken-burger{
     background-image: url(assets/fastfood/chickenBurger.jpg);
-    height: 100%;
+    height: 70%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -255,7 +374,7 @@
     background-image: url(assets/fastfood/beefBurger.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 70%;
 
     
 }
@@ -265,16 +384,17 @@
     background-image: url(assets/fastfood/chickenPizza.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;  
+    height: 70%;  
 
 }
 
 
 .customers{
-    margin: 100px 250px 100px 250px;
+    margin: 100px 270px 100px 270px;
     height: 200px;
     display: flex;
     flex-direction: row;
+    opacity: 0.8;
     border: 20px solid white;
     box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
     -moz-box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
@@ -286,17 +406,35 @@
     width: 60%;
     border-right: 2px solid rgb(218, 219, 221);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    
+}
+
+.happy-customers>h2,.happy-customers>h4,.happy-customers>p{
+    margin: 10px 70px 5px 100px;
+    font-family: sans-serif;
+    
+}
+
+.happy-customers>h4,.happy-customers>p{
+    font-size: 18px;
 }
 
 .about-menu{
     width:40%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
 }
 
 .happy-customers>h2, .about-menu>h2{
-    color: red;
+    color:#F15A29;
+}
+
+.happy-customers>h4,.happy-customers>p, .about-menu>p{
+    opacity: 0.6;
 }
 
 .subscribe{
@@ -310,7 +448,7 @@
 }
 
 .subscribe-content{
-    margin: 70px 500px 50px;
+    margin: 70px 00px 50px 550px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -346,7 +484,7 @@ input[type=text], select {
 
 ::placeholder {
     color:white;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
     font-weight: 500;
   }
 
@@ -354,7 +492,7 @@ input[type=submit] {
     height: 48px;
     width: 220px;
     margin-left: 30px;
-    background-color: red;
+    background-color:#F15A29;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -373,8 +511,8 @@ input[type=submit] {
 
 
 footer{
-    background-color: rgb(238, 87, 49);
-    height: 400px;
+    background-color: #F15A29;
+    height: 350px;
     display: flex;
     margin: 0px 50px 0px 50px;
     flex-direction: column;
@@ -383,22 +521,58 @@ footer{
 }
 
 .footer-contents{
-margin-top: 70px;
-margin-left: 800px;
+margin-top: 0px;
+margin-left: 710px;
+margin-right: 830px;
 display: flex;
 flex-direction: column;
 }
 
-#menu, #logos{
+
+
+#menu, #slogan, #logos{
     display: flex;
     flex-direction: row;
     color: white;
-    height: 50px;
+
 }
 
-#menu>p{
-    margin-top: 20px;
-    margin-left: 20px;
+#menu{
+    margin-top: 30px;
+    height: 80px;
+}
 
+#menu-logo{
+    margin-top: 35px;
+}
+
+#menu-caption>p{
+    margin-top: 35px;
+    padding-left: 12px;
+    font-size: 40px;
+    font-weight: lighter;
+
+
+}
+#slogan{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.foot-note{
+    margin: 30px 740px 5px 730px;
+    color: white;
 
 }
