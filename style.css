@@ -191,6 +191,8 @@
     flex-direction: row;
     margin: 0px;
     width: 100%;
+    font-weight: bold;
+    text-align: center;
 
 }
 #fast-food, #drinks, #chicken, #rice{
@@ -208,15 +210,195 @@
 .main-burger-box{
     display: flex;
     flex-direction: row;
-    flex: 1;
     margin: 50px 50px 50px 50px;
-    height: 300px;
-    border: 2px solid black;
+    height: 400px;
 
 }
 
+#arrow {
+        border: solid red;
+        border-width: 0 3px 3px 0;
+        display: flex;
+        padding: 3px;
+
+}
+
+#left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+.burger-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 50px;
+    opacity: none ;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+
+
+
+
+}
+
+
 #chicken-burger{
     background-image: url(assets/fastfood/chickenBurger.jpg);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#beef-burger{
+    background-image: url(assets/fastfood/beefBurger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    
+}
+    
+
+#chicken-pizza{
+    background-image: url(assets/fastfood/chickenPizza.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;  
+
+}
+
+
+.customers{
+    margin: 100px 250px 100px 250px;
+    height: 200px;
     display: flex;
+    flex-direction: row;
+    border: 20px solid white;
+    box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
+    -moz-box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
+    -webkit-box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
+    -o-box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
+}
+
+.happy-customers{
+    width: 60%;
+    border-right: 2px solid rgb(218, 219, 221);
+    display: flex;
+    justify-content: center;
+}
+
+.about-menu{
+    width:40%;
+    display: flex;
+    justify-content: center;
+}
+
+.happy-customers>h2, .about-menu>h2{
+    color: red;
+}
+
+.subscribe{
+    background-image: url(assets/backgrounds/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    margin: 0px 50px 0px 50px;
+
+}
+
+.subscribe-content{
+    margin: 70px 500px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.subscribe-input{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.subscribe-content> h2{
+    font-size: 30px;
+}
+
+input[type=text], select {
+    width: 360px;
+    height: 50px;
+    padding: 14px 20px;
+    font-size: 17px;
+    font-weight:bold;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: rgb(137, 141, 141);
+    opacity: 0.5;
+
+
+
+}
+
+::placeholder {
+    color:white;
+    opacity: 1; /* Firefox */
+    font-weight: 500;
+  }
+
+input[type=submit] {
+    height: 48px;
+    width: 220px;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 550;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+footer{
+    background-color: rgb(238, 87, 49);
+    height: 400px;
+    display: flex;
+    margin: 0px 50px 0px 50px;
+    flex-direction: column;
+
+
+}
+
+.footer-contents{
+margin-top: 70px;
+margin-left: 800px;
+display: flex;
+flex-direction: column;
+}
+
+#menu, #logos{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 50px;
+}
+
+#menu>p{
+    margin-top: 20px;
+    margin-left: 20px;
+
 
 }
