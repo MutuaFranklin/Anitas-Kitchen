@@ -1,8 +1,8 @@
-# Favorite Band
+# Anitas Kitchen
 
 ### Description
 
-A fan site for H_art the Band which is a Kenyan origin band and my favorite band. It covers band members, biography, a list of my favorite songs from the band and a few comments for the band.
+A fast food restaurant landing page design providing information of the meals offered, a variety of special offers, and a feature to enable all customers to subscribe and receive daily food items via email.
 
 ### Author
 
@@ -11,7 +11,7 @@ A fan site for H_art the Band which is a Kenyan origin band and my favorite band
 
 ### Date of current version
 
-17/04/2021
+25/04/2021
 
 
 ## Project setup instructions
@@ -31,7 +31,7 @@ Github account
 
 When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. Here is a series of steps on how to set up the project on your local machine.
 
-Click [Favorite Band](https://mutuafranklin.github.io/Favorite-Band/) to navigate on the main page of the project repository on Github.
+Click [Anitas Kitchen](https://github.com/MutuaFranklin/Anitas-Kitchen.git) to navigate on the main page of the project repository on Github.
 
 ```
 Clone the repository using HTTPS, click "Clone with HTTPS".
@@ -42,7 +42,7 @@ Open Terminal. Change the current working directory to the location where you wa
 ```
 
 ```
-Type https://github.com/MutuaFranklin/Favorite-Band.git and press Enter to create your local clone.
+Type https://github.com/MutuaFranklin/Anitas-Kitchen.git and press Enter to create your local clone.
 ```
 ## Technologies Used
 
@@ -52,11 +52,11 @@ Type https://github.com/MutuaFranklin/Favorite-Band.git and press Enter to creat
 
 ## Live link
 
-[Favorite Band live link](https://mutuafranklin.github.io/Favorite-Band/)
+[Anitas Kitchen Landing Page live link](https://mutuafranklin.github.io/Favorite-Band/)
 
 ## Support and contact details
 
-Email: [franklinngumbi@gmail.com ](franklingumbi@gmail.com)
+Email: [franklin.mutua@student.moringaschool.com ](franklin.mutua@student.moringaschool.com)
 
 
 ## License
