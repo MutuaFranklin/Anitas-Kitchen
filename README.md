@@ -52,7 +52,7 @@ Type https://github.com/MutuaFranklin/Anitas-Kitchen.git and press Enter to crea
 
 ## Live link
 
-[Anitas Kitchen Landing Page live link](https://mutuafranklin.github.io/Favorite-Band/)
+[Anitas Kitchen Landing Page live link](https://mutuafranklin.github.io/Anitas-Kitchen/)
 
 ## Support and contact details
 
