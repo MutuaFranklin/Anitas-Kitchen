@@ -1,7 +1,7 @@
 .container{
     background-image: url(../assets/backgrounds/landing.jpg);
     height: 700px;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 100px 0px 100px;
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
@@ -53,7 +53,7 @@
 .grid{
     display: flex;
     flex-direction: row;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 100px 0px 100px;
 
 }
 
@@ -319,7 +319,7 @@
     opacity: 0.8;
     height: 650px;
     display: flex;
-    margin: 100px 50px 0px 50px;
+    margin: 100px 100px 0px 100px;
 
 
 }
@@ -381,18 +381,20 @@
 .main-burger-box{
     display: flex;
     flex-direction: row;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 50px 10px 10px;
     height: 400px;
 
 }
 
   
 .burger-card {
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-right: 40px;
     opacity: none ;
     text-align: center;
     font-weight: bold;
@@ -432,7 +434,7 @@
 
 
 .customers{
-    margin: 100px 290px 100px 290px;
+    margin: 100px 320px 100px 320px;
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -524,7 +526,7 @@
     background-repeat: no-repeat;
     height: 300px;
     display: flex;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 100px 0px 100px;
 
 }
 
@@ -593,9 +595,9 @@ input[type=submit] {
 
 footer{
     background-color: #F15A29;
-    height: 350px;
+    height: 310px;
     display: flex;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 100px 0px 100px;
     flex-direction: column;
 
 
@@ -603,8 +605,8 @@ footer{
 
 .footer-contents{
 margin-top: 0px;
-margin-left: 710px;
-margin-right: 830px;
+margin-left: 680px;
+margin-right: 750px;
 display: flex;
 flex-direction: column;
 }
@@ -619,8 +621,8 @@ flex-direction: column;
 }
 
 #menu{
-    margin-top: 30px;
-    height: 80px;
+    margin-top: 10px;
+    height: 60px;
 }
 
 #menu-logo{
@@ -637,7 +639,7 @@ flex-direction: column;
 }
 #slogan{
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 25px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 500;
@@ -653,7 +655,7 @@ flex-direction: column;
 
 
 .foot-note{
-    margin: 30px 740px 5px 730px;
+    margin: 10px 650px 5px 700px;
     color: white;
 
 }
