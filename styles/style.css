@@ -357,6 +357,7 @@
     flex-direction: row;
     margin: 10px 50px 10px 10px;
     height: 400px;
+    grid-gap: 30px;
 
 }
 
@@ -367,18 +368,14 @@
     flex-direction: column;
     flex: 1;
     margin-top: 30px;
-    margin-left: 0px;
-    margin-right: 40px;
     opacity: none ;
     text-align: center;
     font-weight: bold;
     color: #F15A29;
-    opacity: 1.1;
-
-
 
 
 }
+
 
 
 #chicken-burger{
@@ -393,6 +390,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 70%;
+    grid-gap: 50px;
+
 
     
 }
