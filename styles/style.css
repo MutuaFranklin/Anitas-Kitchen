@@ -1,5 +1,5 @@
 .container{
-    background-image: url(assets/backgrounds/landing.jpg);
+    background-image: url(../assets/backgrounds/landing.jpg);
     height: 700px;
     margin: 0px 50px 0px 50px;
     background-size: cover;
@@ -105,7 +105,7 @@
 }
 
 .breakfast{
-    background-image: url("assets/foodtop/breakfast.jpg");
+    background-image: url("../assets/foodtop/breakfast.jpg");
     background-size: cover;
     display: flex;
    
@@ -113,13 +113,13 @@
 }
 
 .lunch{
-    background-image: url("assets/foodtop/lunch.jpg");
+    background-image: url("../assets/foodtop/lunch.jpg");
     background-size: cover;
     opacity: 0.4;
 }
 
 .dinner{
-    background-image: url("assets/foodtop/dinner.jpg");
+    background-image: url("../assets/foodtop/dinner.jpg");
     background-size: cover;
 }
 
@@ -155,14 +155,14 @@
 
 
 #image1{
-    background-image: url("assets/fastFood1.jpg");
+    background-image: url("../assets/fastFood1.jpg");
     background-size: cover;
     height: 50%;
 
 }
 
 #image2{
-    background-image: url("assets/fastFood2.jpg");
+    background-image: url("../assets/fastFood2.jpg");
     background-size: cover;
     height: 50%;
 }
@@ -301,21 +301,21 @@
 }
 
 #image3{
-    background-image: url("assets/drink1.jpg");
+    background-image: url("../assets/drink1.jpg");
     background-size: cover;
     width: 50%;
 
 }
 
 #image4{
-    background-image: url("assets/drink2.jpg");
+    background-image: url("../assets/drink2.jpg");
     background-size: cover;
     width: 50%;
 }
 
 
 .fast-food-container{
-    background-image: url(assets/backgrounds/foodsBg.jpg);
+    background-image: url(../assets/backgrounds/foodsBg.jpg);
     opacity: 0.8;
     height: 650px;
     display: flex;
@@ -406,14 +406,14 @@
 
 
 #chicken-burger{
-    background-image: url(assets/fastfood/chickenBurger.jpg);
+    background-image: url(../assets/fastfood/chickenBurger.jpg);
     height: 70%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #beef-burger{
-    background-image: url(assets/fastfood/beefBurger.jpg);
+    background-image: url(../assets/fastfood/beefBurger.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 70%;
@@ -423,7 +423,7 @@
     
 
 #chicken-pizza{
-    background-image: url(assets/fastfood/chickenPizza.jpg);
+    background-image: url(../assets/fastfood/chickenPizza.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 70%;  
@@ -519,7 +519,7 @@
 
 
 .subscribe{
-    background-image: url(assets/backgrounds/subscribe.jpg);
+    background-image: url(../assets/backgrounds/subscribe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
