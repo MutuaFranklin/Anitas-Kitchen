@@ -40,7 +40,7 @@
 }
 #paragraph-one>p, #paragraph-two>p{
     text-transform: capitalize;
-    font-family:serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight:lighter;
     font-size: 2em;
     text-align: center;
@@ -175,13 +175,25 @@
     height: 400px;
     width: 400px;
     text-align: left;
-    line-height: 1.4;
 
 }
 
-.fast-food-description>h2, .fast-food-description>h4, .fast-food-description>p{
-    font-family: sans-serif;
+.fast-food-description>h2{
+    font-family:serif;
     opacity: 0.7;
+    font-size: 36px;
+    margin-top: 3px;
+
+
+}
+
+.fast-food-description>h4,.fast-food-description>p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 1.5;
+
+
 
 }
 
@@ -189,30 +201,29 @@
 
 .view-gallery{
     height: 50px;
-    width: 250px;
+    width: 200px;
     border: 1px solid #F15A29;
     margin-top: 30px;
 }
 
 .view-gallery>p{
     color:#F15A29;
-    margin-left: 30px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
 .drinks-description{
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 450px;
     height: 400px;
     width: 400px;
     display: flex;
     flex-direction: column;
-    line-height: 1.4;
 }
 
 .drinks-description>h2, .drinks-description>h4, .drinks-description>p{
     text-align: right;
-    font-family: sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     opacity: 0.7;
     margin-top: 3px;
 
@@ -220,10 +231,14 @@
 
 .drinks-description>h4, .fast-food-description>h4{
     font-size: 20px;
+
 }
 
 .drinks-description>p, .fast-food-description>p{
     font-weight: 540;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 1.8;
 }
 
 .drinks-description> .view-gallery{
@@ -390,11 +405,10 @@
 
 
 .customers{
-    margin: 100px 270px 100px 270px;
+    margin: 100px 290px 100px 290px;
     height: 200px;
     display: flex;
     flex-direction: row;
-    opacity: 0.8;
     border: 20px solid white;
     box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
     -moz-box-shadow: 0 0 20px rgba(109, 107, 107, 0.6);
@@ -413,12 +427,12 @@
 
 .happy-customers>h2,.happy-customers>h4,.happy-customers>p{
     margin: 10px 70px 5px 100px;
-    font-family: sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
-.happy-customers>h4,.happy-customers>p{
-    font-size: 18px;
+.happy-customers>h4,.happy-customers>p, .about-menu>p{
+    font-size: 15px;
 }
 
 .about-menu{
@@ -426,16 +440,34 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 10px;
 
 }
 
 .happy-customers>h2, .about-menu>h2{
     color:#F15A29;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .happy-customers>h4,.happy-customers>p, .about-menu>p{
     opacity: 0.6;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+
+.customer-images{
+    margin-top: 20px;
+}
+
+.about-menu>p{
+    margin: 0px 20px 0px 20px;
+    line-height: 1.5;
+
+}
+
 
 .subscribe{
     background-image: url(assets/backgrounds/subscribe.jpg);
